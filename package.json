@@ -1,0 +1,16 @@
+{
+  "name": "hotels-platform",
+  "version": "1.0.0",
+  "description": "Hotels web platform challenge monorepo",
+  "scripts": {
+    "develop:backend": "yarn --cwd backend dev",
+    "develop:frontend": "yarn --cwd frontend dev"
+  },
+  "main": "index.js",
+  "author": "Kendall Kant",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^8.6.1",
+    "wait-on": "^6.0.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend app for the hotels platform challenge",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "main": "app.js",
+  "author": "Kendall Kant",
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^8.6.1",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}
