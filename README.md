@@ -2,7 +2,25 @@
 	Hotels Platform Challenge Monorepo
 </h1>
 
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lKrayola/Hotels-Platform">
 
+  <a href="https://www.linkedin.com/in/kendallkant/">
+    <img alt="Made by" src="https://img.shields.io/badge/made%20by-Kendall%20Kant-gree">
+  </a>
+  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lKrayola/Hotels-Platform">
+  
+  <a href="https://github.com/lKrayola/Hotels-Platform/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lKrayola/Hotels-Platform">
+  </a>
+  
+  <a href="https://github.com/lKrayola/Hotels-Platform/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/lKrayola/Hotels-Platform">
+  </a>
+  
+  <img alt="GitHub" src="https://img.shields.io/github/license/lKrayola/Hotels-Platform">
+</p>
 
 ## Getting Started
 
