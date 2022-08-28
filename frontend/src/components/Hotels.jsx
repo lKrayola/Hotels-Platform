@@ -1,4 +1,19 @@
 import React, { useEffect, useState } from "react";
+import Box from "@mui/material/Box";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+
+// const bull = (
+//   <Box
+//     component="span"
+//     sx={{ display: "inline-block", mx: "2px", transform: "scale(0.8)" }}
+//   >
+//     •
+//   </Box>
+// );
 
 const serverURL = import.meta.env.PUBLIC_API_URL;
 
@@ -37,7 +52,33 @@ export default function Hotels() {
         hoteslInfoState.map((doc, index) => {
           return (
             <div key={index} className="flex items-start">
-              <a> {`${doc.title}`} </a>
+              {/* <a> {`${doc.title}`} </a> */}
+              <Card sx={{ minWidth: 275 }}>
+                <CardContent>
+                  <Typography
+                    sx={{ fontSize: 14 }}
+                    color="text.secondary"
+                    gutterBottom
+                  >
+                    {`${doc.title}`}
+                  </Typography>
+                  <Typography variant="h6" component="div">
+                    {`${doc.name}`}
+                  </Typography>
+                  <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                    {`${doc.address}`}
+                  </Typography>
+                  <Typography variant="body2">
+                    {`${doc.url}`}
+                    <br />
+                    {'"Lorem Ipsum"'}
+                  </Typography>
+                </CardContent>
+                <CardActions>
+                  <Button size="small">Learn More</Button>
+                </CardActions>
+              </Card>
+              <a> -------- </a>
             </div>
           );
         })
